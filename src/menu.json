@@ -1,0 +1,14 @@
+[
+    {
+        "layoutName":"ThyLayout",
+        "path":"thy"
+    },
+    {
+        "layoutName":"AnadoluJetLayout",
+        "path":"anadolu-jet"
+    },
+    {
+        "layoutName":"MainLayout",
+        "path":""
+    }
+]

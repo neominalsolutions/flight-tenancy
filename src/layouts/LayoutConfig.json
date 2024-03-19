@@ -1,0 +1,24 @@
+{
+    "thy":
+    {
+        "foreColor":"red",
+        "defaultLang":"tr",
+        "logoUrl":"https://logowik.com/content/uploads/images/271_thy.jpg",
+        "companyName":"Turkish Airlines",
+        "fontSize":"12px",
+        "menuBackColor":"gray",
+        "layoutName":"ThyLayout",
+        "basePath":"thy"
+    },
+    "anadolu-jet":
+    {
+        "foreColor":"blue",
+        "defaultLang":"tr",
+        "logoUrl":"https://www.anadolujet.com/documents/logolar/aj_logo_web01-1.png",
+        "companyName":"Anadolu Jet",
+        "fontSize":"11px",
+        "menuBackColor":"yellow",
+        "layoutName":"AnadoluJetLayout",
+        "basePath":"anadolu-jet"
+    }
+}
