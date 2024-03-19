@@ -1,14 +1,46 @@
 [
     {
-        "layoutName":"ThyLayout",
-        "path":"thy"
+        "component":"ThyLayout",
+        "path":"thy",
+        "children" : [
+               {
+					"path": "arrivals/:flightNumber",
+					"component": "ArrivalDetailPage"
+				},
+				{
+					"path": "arrivals/:flightNumber",
+					"component": "DepartureDetailPage"
+				}
+            ]
+        
     },
     {
-        "layoutName":"AnadoluJetLayout",
-        "path":"anadolu-jet"
+        "component":"AnadoluJetLayout",
+        "path":"anadolu-jet",
+        "children":[
+            {
+					"path": "arrivals/:flightNumber",
+					"component": "ArrivalDetailPage"
+				},
+				{
+					"path": "arrivals/:flightNumber",
+					"component": "DepartureDetailPage"
+				}
+        ]
     },
     {
-        "layoutName":"MainLayout",
-        "path":""
+        "component":"MainLayout",
+        "path":"",
+        "children" : [
+               {
+					"path": "arrivals",
+					"component": "ArrivalsPage"
+				},
+				{
+					"path": "departures",
+					"component": "DeparturesPage"
+				}
+            ]
+        
     }
 ]
