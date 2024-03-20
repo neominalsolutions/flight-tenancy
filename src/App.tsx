@@ -1,17 +1,8 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
 import { RouteObject, useRoutes } from 'react-router-dom';
-import MainLayout from './layouts/MainLayout';
-import ThyLayout from './layouts/ThyLayout';
-import AnadoluJetLayout from './layouts/AnadoluJetLayout';
-import ArrivalsPage from './pages/arrivals/ArrivalsPage';
-import DeparturesPage from './pages/departures/DeparturesPage';
-import ArrivalDetailPage from './pages/arrivals/ArrivalDetailPage';
-import DepartureDetailPage from './pages/departures/DepartureDetailPage';
+import './App.css';
 
-import menus from './menu.json';
 import { ComponentRegistry } from './layouts/ComponentRegisteration';
+import menus from './menu.json';
 
 function App() {
 	const _routes = (menus as any[]).map((menu: any) => {
